@@ -1,0 +1,1045 @@
+prompt	related_question
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
+"## 2) Load training dataset (5 pts)
+
+*  Read the .csv file with the pandas library
+"	1
+"## 3) Understanding the dataset & Preprocessing (15 pts)
+
+Understanding the Dataset: (5 pts)
+
+
+> - Find the shape of the dataset (number of samples & number of attributes). (Hint: You can use the **shape** function)
+
+> - Display variable names (both dependent and independent).
+
+
+> - Display the summary of the dataset. (Hint: You can use the **info** function)
+
+
+> - Display the first 5 rows from training dataset. (Hint: You can use the **head** function)
+
+
+
+
+Preprocessing: (10 pts)
+
+
+> - Check if there are any missing values in the dataset. If there are, you can either drop these values or fill it with most common values in corresponding rows. **Be careful that you have enough data for training the  model.**
+
+
+> - Encode categorical labels with the mappings given in the cell below. (Hint: You can use **map** function)"	2
+"Set X & y, split data (5 pts)
+
+*   Shuffle the dataset.
+*   Seperate your dependent variable X, and your independent variable y. The column health_metrics is y, the rest is X.
+*   Split training and test sets as 80% and 20%, respectively."	3
+"Features and Correlations (10 pts)
+
+* Correlations of features with health (4 points)
+Calculate the correlations for all features in dataset. Highlight any strong correlations with the target variable. Plot your results in a heatmap.
+
+* Feature Selection (3 points)
+Select a subset of features that are likely strong predictors, justifying your choices based on the computed correlations.
+
+* Hypothetical Driver Features (3 points)
+Propose two hypothetical features that could enhance the model's predictive accuracy for Y, explaining how they might be derived and their expected impact. Show the resulting correlations with target variable."	4
+"Tune Hyperparameters (20 pts)
+* Choose 2 hyperparameters to tune. You can use the Scikit learn decision tree documentation for the available hyperparameters *(Hyperparameters are listed under ""Parameters"" in the documentation)*. Use GridSearchCV for hyperparameter tuning, with a cross-validation value of 5. Use validation accuracy to pick the best hyper-parameter values. (15 pts)
+-Explain the hyperparameters you chose to tune. *(What are the hyperparameters you chose? Why did you choose them?)* (5 pts)"	5
+"Re-train and plot the decision tree with the hyperparameters you have chosen (15 pts)
+- Re-train model with the hyperparameters you have chosen in part 5). (10 pts)
+- Plot the tree you have trained. (5 pts)
+Hint: You can import the **plot_tree** function from the sklearn library."	6
+"Test your classifier on the test set (20 pts)
+- Predict the labels of testing data using the tree you have trained in step 6. (10 pts)
+- Report the classification accuracy. (2 pts)
+- Plot & investigate the confusion matrix. Fill the following blanks. (8 pts)
+> The model most frequently mistakes class(es) _________ for class(es) _________.
+Hint: You can use the confusion_matrix function from sklearn.metrics"	7
+Find the information gain on the first split (10 pts)	8
