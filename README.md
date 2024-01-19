@@ -108,7 +108,13 @@ The final stage involves aggregating these individual question grades. The model
 
 ## ML Algorithm in High-Level (the one in the hw_score_predict.ipynb)
 
-- XXXX
+In this advanced draft segment of our project, we initially engaged in a sophisticated pre-processing regimen on our dataset to meticulously eliminate any instances of duplicate or missing values, ensuring data integrity and consistency. Subsequently, we embarked on an exploratory phase where we rigorously experimented with various features that could be extrapolated from the given dataset, comprising prompts and corresponding ChatGPT responses. The objective was to develop a nuanced model capable of predicting a user's grade based solely on these prompts and responses. This intricate process of feature engineering involved an in-depth analysis of multiple attributes, including the average lengths of prompts and ChatGPT responses, the total count of prompts, and so forth. We also conducted a comprehensive correlation analysis between these attributes and our target variable, the grade, to understand their interdependencies.
+
+Advancing further, we developed a refined, compact model specifically designed to ascertain the correlation between each prompt and its pertinent question. The insights gleaned from this model were pivotal in deriving sophisticated features, notably the frequency of prompts a user utilized for each specific question. Another critical feature we focused on was quantifying the degree of similarity between the user’s prompts and each question. This was achieved using an advanced cosine similarity metric, enabling us to gauge the alignment of user prompts with the respective questions.
+
+Having identified our primary features, we proceeded to perform an exhaustive grid search. This methodical approach was critical to isolate the features with the strongest correlation to our target grade variable, ensuring optimal model performance upon training. The selected features for our model included 'average_prompt_length', 'Q4_count', 'chat_length', 'Q1_count', and 'similarity_to_top_prompts', as these demonstrated superior efficacy in preliminary evaluations.
+
+Upon analyzing our model’s performance, we observed the following metrics: MSE Train at 3.8907418637558115, MSE Test at 180.2694194540561, R2 Train at 0.975783016753649, and R2 Test at -0.4757988467827867. While the train metrics indicated a high level of accuracy, the test results revealed significant discrepancies, prompting us to reevaluate our approach. Dissatisfied with these outcomes, we ventured into alternative methodologies and model configurations, as detailed in the 'model.ipynb' file, aiming to enhance the model’s predictive accuracy and generalizability.
 
 ## Acknowledgments
 Special thanks to Onur Varol and his CS412 team for the semester.
